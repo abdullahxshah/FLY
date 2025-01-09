@@ -163,6 +163,18 @@ p.product-price{
     font-weight: 400;
     color: #938031;
 }
+/* footer */
+footer p{
+    font-family: 'Poppins';
+    font-size: 1.4rem;
+    font-weight: 300;
+    margin: 0;
+    text-align: center;
+    padding: 2em;
+    background-color: #dbd6c3;
+}
+
+
 /* pointer hover animation */
 nav ul li a:hover{
     cursor: pointer;
