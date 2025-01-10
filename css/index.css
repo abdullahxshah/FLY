@@ -3,7 +3,7 @@ html {
 }
 header a img {
     width: 100px;
-    height: 50px;
+    height: 30px;
 }
 body{
     margin: 0;
@@ -164,14 +164,19 @@ p.product-price{
     color: #938031;
 }
 /* footer */
-footer p{
-    font-family: 'Poppins';
-    font-size: 1.4rem;
-    font-weight: 300;
-    margin: 0;
-    text-align: center;
-    padding: 2em;
+footer{
     background-color: #dbd6c3;
+    padding: 2em;
+    
+}
+footer nav ul li a{
+    display: grid;
+    
+    gap: 2em;
+}
+footer a img {
+    width: 100px;
+    height: 50px;
 }
 
 
@@ -198,4 +203,5 @@ nav ul li a:hover{
 
 .card:hover{
     cursor: pointer;
- background-size: 170%;}
+ background-size: 170%;
+}
