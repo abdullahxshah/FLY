@@ -1,0 +1,75 @@
+html {
+    font-size: 62.5%;
+}
+header a img {
+    width: 100px;
+    height: auto;
+}
+header nav ul li a img {
+    width: 1.8em;
+    margin: 0 auto;
+
+}
+body{
+    margin: 0;
+    font-family: 'Poppins';
+}
+.wrapper{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+/* navigation bar */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav{
+    margin: 4em;
+}
+nav ul{
+    list-style-type: none;
+}
+/* checkout page */
+h2{
+    font-size: 3rem;
+    margin: 1em 0;
+    text-align: center;
+    font-family: "poppins";
+    font-weight: 200;
+}
+h1 {
+    font-size: 3.6rem;
+    font-weight: 400;
+    margin: 1em 0;
+    text-align: center;
+    font-family: "poppins";
+}
+.form-group{
+    margin: 1em 0;
+    display: grid;
+    
+}
+::placeholder {
+    color: #3e3d3d;
+    font-size: 1.6rem;
+    padding: 1em;
+    font-family: "poppins";
+    font-size: 1.6rem;
+}
+input{
+    border: 1px solid #dbd6c3;
+    border-radius: 5px;
+    padding: 1.5em;
+    text-align: center;
+    font-family: "poppins";
+    font-size: 1.6rem;
+}
+label{
+    font-size: 1.6rem;
+    font-family: "poppins";
+    font-weight: 400;
+    padding: 1em;
+}
