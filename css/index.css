@@ -1,10 +1,8 @@
 html {
     font-size: 62.5%;
+    background-color: #d1c7bd;
 }
 header a .header-logo {
-    
-    background-color: #dbd6c3;
-    border-radius: 5px;
     width: 80px;
     height: auto;
 }
@@ -16,6 +14,7 @@ header nav ul li a img {
 body{
     margin: 0;
     font-family: 'Poppins';
+    background-color: #d1c7bd;
 }
 .wrapper{
     max-width: 1000px;
@@ -28,6 +27,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #d1c7bd;
 }
 nav{
     margin: 4em;
@@ -42,7 +42,7 @@ nav ul li a{
     text-decoration: none;
     text-transform: uppercase;
     font-size: 1.6rem;
-    color: black;
+    color: #6a2f35;
 }
 
 /* main content */
@@ -52,7 +52,7 @@ main{
     gap: 8em;
     margin-top: 1em;
     padding-bottom: 1em;
-    
+    background-color: #d1c7bd;
 }
 /* left column */
 
@@ -77,10 +77,10 @@ main{
 }
 .primary-cta{
     max-height: fit-content;
-    background-color:#dbd6c3;
+    background-color: #f9f9f8;
     font-size: 1.1rem;
     font-weight: bold;
-    color: black;
+    color: #6a2f35;
     text-decoration: none;
     padding: 1em 2em;
     border-radius: 1.5em;
@@ -89,8 +89,9 @@ main{
 .secondary-cta{
     margin-left: 5%;
     font-size: 1.1rem;
+    font-weight: 300;
     text-decoration: none;
-    color: #938031;
+    color: #6a2f35;
     display: block;
     padding: 1em 0;
 }
@@ -98,8 +99,9 @@ main{
     display: flex;
     gap: 3em;
     padding: 5em;
-    border: black 1px solid;
+    border: #6a2f35 1px solid;
     border-radius: .8em;
+    color: #6a2f35;
 }
 p.sales{
     line-height: 100%;
@@ -145,7 +147,7 @@ p.details{
     background-image: url('../images/clothing3.jpg');
 }
 .card-details{
-    background-color: white;
+    background-color: #d1c7bd;
     width: 100%;
     padding: .8em;
     border-radius: .8em;
@@ -156,7 +158,7 @@ p.details{
 }
 .card-details a{
     text-decoration: none;
-    color: black;
+    color: rgb(0, 0, 0);
     font-size: 1.4rem;
     font-weight: bold;
 }
@@ -164,19 +166,20 @@ p.details{
     font-size: 1.4rem;
     font-weight: 300;
     margin: 0;
+    color: rgb(0, 0, 0);
 }
 p.product-price{
     font-family: 'Playfair Display';
     font-size: 1.8rem;
     font-weight: 400;
-    color: #938031;
+    color: #6a2f35;
 }
 
 
 /* footer */
 footer {
-    background-color: #dbd6c3; 
-    color: #000000; 
+    background-color: #5e5140; 
+    color: #ffffff; 
     padding: 2em 0;
     justify-content: space-between;
 }
@@ -206,7 +209,7 @@ footer .column1 ul li a {
     font-size: 1.2rem;
     font-family: 'Poppins';
     font-weight: 300;
-    color: #000000;
+    color: #ffffff;
     text-decoration: none;
 }
 
@@ -234,13 +237,14 @@ nav ul li a:hover{
 }
 .primary-cta:hover{
     cursor: pointer;
-    background-color: #938031;
+    background-color: #6a2f35;
+    color: #f9f9f8;
     color: white;
     transition: .5s;
 }
 .secondary-cta:hover{
     cursor: pointer;
-    color: black;
+    color: rgb(247, 247, 247);
     text-decoration: underline;
     transition: .5s;
     
